@@ -1,9 +1,14 @@
-const App = () => {
+import React from "react";
+import Panel from "../components/Panel";
+export default function index() {
   return (
-    <div className="p-4 shadow rounded bg-white">
-      <h1 className="text-purple-500 leading-normal">hello there world</h1>
-      <p className="text-gray-500">with Tailwind CSS</p>
+    <div className="h-screen bg-white">
+      {/* left side links /panel */}
+      <div className="">
+        <Panel />
+      </div>
+      {/* page content */}
+      <div></div>
     </div>
   );
-};
-export default App;
+}

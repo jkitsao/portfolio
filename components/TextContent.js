@@ -11,7 +11,7 @@ export default function TextContent() {
           transition={{ duration: 5.9 }}
         >
           <h1 className="font-mono text-green-500">
-            Hello stranger, im
+            Hello stranger, i'm
             <span className="bg-red-700  m-1 text-white">
               {"  "}
               Jackson kitsao

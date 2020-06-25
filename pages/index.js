@@ -19,7 +19,7 @@ export default function index() {
             below are some of the languages i work in
           </h3>
         </div>
-        <div className="flex justify-center px-5  py-8 ">
+        <div className="flex justify-center px-3  py-6 ">
           <Language />
         </div>
       </div>

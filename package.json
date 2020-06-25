@@ -11,7 +11,8 @@
     "framer-motion": "^1.11.1",
     "next": "9.4.4",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-minimal-pie-chart": "^8.0.1"
   },
   "devDependencies": {
     "postcss-preset-env": "^6.7.0",

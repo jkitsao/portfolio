@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       // bg-dark-theme:#050124;
       colors: {
-        darkTheme: "#050124",
+        darktheme: "#050124",
       },
     },
     variants: {},

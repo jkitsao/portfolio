@@ -7,31 +7,39 @@ export default function Navbar() {
       {/* <div>
         <h3 className="text-yellow-300 text-4xl">Kitsao</h3>
       </div> */}
-      <div className="flex justify-center p-3">
-        <ul className="flex ">
-          <li className=" hover:bg-yellow-700 p-2">
+      <div className="flex p-3 overflow-x-scroll lg:overflow-hidden lg:justify-center">
+        <ul className="flex">
+          <li className=" hover:bg-yellow-700 p-2  ml-4">
             <Link href="/">
-              <a className="text-white text-lg">Home</a>
+              <a className="text-red-400 active:bg-yellow-500 text-lg">Home</a>
             </Link>
           </li>
-          <li className="ml-32 hover:bg-yellow-700 p-2">
+          <li className="lg:ml-32 hover:bg-yellow-700 ml-4 p-2 ">
             <Link href="/">
-              <a className="text-white text-lg">Project</a>
+              <a className="text-red-400 active:bg-yellow-500 text-lg">
+                Project
+              </a>
             </Link>
           </li>
-          <li className="ml-32 hover:bg-yellow-700 p-2">
+          <li className="lg:ml-32 hover:bg-yellow-700 p-2 ml-4 ">
             <Link href="/">
-              <a className="text-white text-lg">Skills</a>
+              <a className="text-red-400 active:bg-yellow-500 text-lg">
+                Skills
+              </a>
             </Link>
           </li>
-          <li className="ml-32 hover:bg-yellow-700 p-2">
+          <li className="lg:ml-32 hover:bg-yellow-700 p-2 ml-4 ">
             <Link href="/">
-              <a className="text-white text-lg">Github</a>
+              <a className="text-red-400 active:bg-yellow-500 text-lg">
+                Github
+              </a>
             </Link>
           </li>
-          <li className="ml-32 hover:bg-yellow-700 p-2">
+          <li className="lg:ml-32 hover:bg-yellow-700 p-2 ml-4 ">
             <Link href="/">
-              <a className="text-white text-lg">twitter</a>
+              <a className="text-red-400 active:bg-yellow-500 text-lg">
+                twitter
+              </a>
             </Link>
           </li>
         </ul>

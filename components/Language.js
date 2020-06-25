@@ -9,17 +9,20 @@ export default function Language() {
     {
       name: "Javascript",
       image: "https://bit.ly/3i5HGmy",
-      desc: "Javascript is a client side language",
+      desc:
+        "JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.",
     },
     {
       name: "Html",
       image: "https://bit.ly/387dSkH",
-      desc: "Html is a markup language",
+      desc:
+        "Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser",
     },
     {
       name: "Css",
       image: "https://bit.ly/2CyKb06",
-      desc: "Css is a styling language",
+      desc:
+        "Cascading Style Sheets is a style sheet language used for describing the presentation of a document ",
     },
   ]);
   return (

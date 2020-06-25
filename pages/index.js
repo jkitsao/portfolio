@@ -14,7 +14,7 @@ export default function index() {
         <TextContent />
       </div>
       <div className="bg-grey-300">
-        <div className=" bg-grey-100">
+        <div className=" bg-grey-100 px-3">
           <h3 className="text-green-600 text-3xl text-center">
             below are some of the languages i work in
           </h3>

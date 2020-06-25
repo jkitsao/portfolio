@@ -8,20 +8,25 @@ export default function TextContent() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 3.9 }}
+          transition={{ duration: 5.9 }}
         >
           <h1 className="font-mono text-green-500">
-            Hello stranger, im Jackson kitsao and i am a Software Engineer from
-            Nairobi,Kenya passionate about developing innovative products geared
-            toward simplifying & Improving life.
+            Hello stranger, im
+            <span className="bg-red-700  m-1 text-white">
+              {"  "}
+              Jackson kitsao
+            </span>{" "}
+            and i am a Software Engineer from Nairobi,Kenya passionate about
+            developing innovative products geared toward simplifying & Improving
+            life.
           </h1>
         </motion.div>
         <div>
           <motion.h2
-            className="text-indigo-400 text-xl lg:text-2xl mt-8"
-            initial={{ y: -400 }}
-            animate={{ y: 0 }}
-            transition={{ duration: 1.9 }}
+            className="text-indigo-400 text-lg lg:text-2xl mt-8 font-sans"
+            initial={{ x: -1700 }}
+            animate={{ x: 0 }}
+            transition={{ delay: 1, duration: 1.2 }}
           >
             currently i am working on{" "}
             <a
@@ -32,7 +37,9 @@ export default function TextContent() {
             </a>{" "}
             a platform that will hopefully help the Real estate and housing
             sector in Africa. on my free time away from the keyboard i like
-            playing video games, watching movies and tv shows
+            learning about science stuff black holes,distant galaxies,stars and
+            all those geeky stuff playing video games, watching movies and tv
+            shows
           </motion.h2>
           <hr className="mt-16" />
         </div>

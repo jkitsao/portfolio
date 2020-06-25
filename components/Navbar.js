@@ -9,7 +9,7 @@ export default function Navbar() {
       </div> */}
       <div className="flex p-3 overflow-x-scroll lg:overflow-hidden lg:justify-center">
         <ul className="flex">
-          <li className=" hover:bg-yellow-700 p-2  ml-4">
+          <li className=" hover:bg-yellow-700 hover:text-white p-2  ml-4">
             <Link href="/">
               <a className="text-red-400 active:bg-yellow-500 text-lg">Home</a>
             </Link>
@@ -29,7 +29,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="lg:ml-32 hover:bg-yellow-700 p-2 ml-4 ">
-            <Link href="/">
+            <Link href="https://github.com/jkitsao">
               <a className="text-red-400 active:bg-yellow-500 text-lg">
                 Github
               </a>

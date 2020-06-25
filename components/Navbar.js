@@ -29,7 +29,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="lg:ml-32 hover:bg-yellow-700 p-2 ml-4 ">
-            <Link href="https://github.com/jkitsao">
+            <Link href="/">
               <a className="text-red-400 active:bg-yellow-500 text-lg">
                 Github
               </a>

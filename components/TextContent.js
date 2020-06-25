@@ -36,10 +36,10 @@ export default function TextContent() {
               openvue
             </a>{" "}
             a platform that will hopefully help the Real estate and housing
-            sector in Africa. on my free time away from the keyboard i like
-            learning about science stuff black holes,distant galaxies,stars and
-            all those geeky stuff playing video games, watching movies and tv
-            shows
+            sector in Africa...||... on my free time away from the keyboard i
+            like learning about science stuff black holes,distant galaxies,stars
+            and all those geeky stuff..||..i also enjoy playing video games,
+            watching movies and tv shows
           </motion.h2>
           <hr className="mt-16" />
         </div>

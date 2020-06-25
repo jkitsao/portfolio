@@ -12,6 +12,7 @@
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-ga": "^3.0.0",
     "react-minimal-pie-chart": "^8.0.1"
   },
   "devDependencies": {

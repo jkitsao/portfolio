@@ -15,11 +15,11 @@ export default function index() {
       </div>
       <div className="bg-grey-300">
         <div className=" bg-grey-100">
-          <h3 className="text-yellow-200 text-3xl text-center">
+          <h3 className="text-green-600 text-3xl text-center">
             below are some of the languages i work in
           </h3>
         </div>
-        <div className="flex justify-center px-5  py-16 ">
+        <div className="flex justify-center px-5  py-8 ">
           <Language />
         </div>
       </div>

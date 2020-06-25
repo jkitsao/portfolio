@@ -4,12 +4,10 @@ export default function Card({ data }) {
   return (
     <motion.div
       className="bg-white rounded shadow-lg overflow-hidden mx-2 my-1  w-full"
-      drag
+      drag="X"
       dragConstraints={{
-        top: -20,
-        left: -20,
-        right: 20,
-        bottom: 30,
+        left: 0,
+        right: 0,
       }}
     >
       <motion.img

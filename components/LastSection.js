@@ -5,31 +5,31 @@ function LastSection() {
     {
       id: "Html",
       label: "Html",
-      value: 540,
+      value: 550,
       color: "hsl(71, 70%, 50%)",
     },
     {
       id: "Css",
       label: "Css",
-      value: 622,
+      value: 500,
       color: "hsl(39, 70%, 50%)",
     },
     {
       id: "Javascript",
       label: "Javascript",
-      value: 505,
+      value: 600,
       color: "hsl(80, 70%, 50%)",
     },
     {
       id: "Reactjs",
       label: "Reactjs",
-      value: 244,
+      value: 450,
       color: "hsl(94, 70%, 50%)",
     },
     {
       id: "Nodejs",
       label: "Nodejs",
-      value: 321,
+      value: 430,
       color: "hsl(8, 70%, 50%)",
     },
   ];

@@ -18,13 +18,13 @@ export default function index() {
       </ScrollAnimation>
       <div className="bg-grey-300">
         <div className=" bg-grey-100 px-3">
-          <Parallax speed={3}>
+          <Parallax speed={6}>
             <h3 className="text-green-600 text-3xl text-center tracking-tight leading-tight font-serif">
               Below are some of the languages i interact with mostly
             </h3>
           </Parallax>
         </div>
-        <Parallax speed={4}>
+        <Parallax speed={5}>
           <div className="flex justify-center px-3  py-3 ">
             <Language />
           </div>

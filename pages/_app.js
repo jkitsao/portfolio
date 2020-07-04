@@ -11,7 +11,7 @@ function App({ Component, pageProps }) {
       //   backgroundColor: "rgba(125,125,125)",
       // }}
     >
-      <div className="sticky top-0">
+      <div className=" top-0">
         <Navbar />
       </div>
       <Component {...pageProps} />;

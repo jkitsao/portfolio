@@ -11,7 +11,7 @@ export default function TextContent() {
           animate={{ opacity: 1, top: 0 }}
           transition={{ duration: 6.9 }}
         >
-          <Parallax speed={7}>
+          <Parallax speed={10}>
             <h1 className="font-mono text-green-500">
               Hello stranger, i'm
               <span className="bg-red-700  m-1 text-white">
@@ -25,7 +25,7 @@ export default function TextContent() {
           </Parallax>
         </motion.div>
         <div>
-          <Parallax speed={3}>
+          <Parallax speed={7}>
             <h2 className="text-indigo-400 text-lg lg:text-2xl mt-8 font-sans">
               currently i am working on{" "}
               <a

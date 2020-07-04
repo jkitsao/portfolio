@@ -3,7 +3,7 @@ import Link from "next/link";
 // import github from "../public/svg/github.svg";
 export default function Navbar() {
   return (
-    <nav className=" bg-black border-b-2 ">
+    <nav className=" bg-black border-b-2 z-50">
       {/* <div>
         <h3 className="text-yellow-300 text-4xl">Kitsao</h3>
       </div> */}

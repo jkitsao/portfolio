@@ -8,12 +8,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "@nivo/pie": "^0.62.0",
+    "animate.css": "^4.1.0",
     "framer-motion": "^1.11.1",
     "next": "9.4.4",
     "react": "16.13.1",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "16.13.1",
     "react-ga": "^3.0.0",
-    "react-minimal-pie-chart": "^8.0.1"
+    "react-minimal-pie-chart": "^8.0.1",
+    "react-rellax": "^1.0.3"
   },
   "devDependencies": {
     "postcss-preset-env": "^6.7.0",

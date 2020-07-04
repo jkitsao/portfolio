@@ -22,12 +22,7 @@ export default function TextContent() {
           </h1>
         </motion.div>
         <div>
-          <motion.h2
-            className="text-indigo-400 text-lg lg:text-2xl mt-8 font-sans"
-            initial={{ x: -1700 }}
-            animate={{ x: 0 }}
-            transition={{ delay: 1, duration: 1.2 }}
-          >
+          <h2 className="text-indigo-400 text-lg lg:text-2xl mt-8 font-sans">
             currently i am working on{" "}
             <a
               href="/"
@@ -40,7 +35,7 @@ export default function TextContent() {
             like learning about science stuff black holes,distant galaxies,stars
             and all those geeky stuff..||..i also enjoy playing video games,
             watching movies and tv shows
-          </motion.h2>
+          </h2>
           <hr className="mt-16" />
         </div>
       </div>

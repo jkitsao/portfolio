@@ -11,15 +11,18 @@ export default function Navbar() {
         <ul className="flex">
           <li className=" hover:bg-yellow-700 hover:text-white p-2  ml-4">
             <Link href="/">
-              <a className="text-red-400 active:bg-yellow-500 text-lg">Home</a>
+              <a className="text-red-400 active:bg-yellow-500 text-lg">
+                Projects
+              </a>
             </Link>
           </li>
           <li className="lg:ml-32 hover:bg-yellow-700 ml-4 p-2 ">
-            <Link href="/">
-              <a className="text-red-400 active:bg-yellow-500 text-lg">
-                Project
-              </a>
-            </Link>
+            <a
+              href="http://devcrunch.jkitsao.vercel.app/"
+              className="text-red-400 active:bg-yellow-500 text-lg"
+            >
+              Blogs
+            </a>
           </li>
           <li className="lg:ml-32 hover:bg-yellow-700 p-2 ml-4 ">
             <Link href="/">
@@ -29,11 +32,12 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="lg:ml-32 hover:bg-yellow-700 p-2 ml-4 ">
-            <Link href="/">
-              <a className="text-red-400 active:bg-yellow-500 text-lg">
-                Github
-              </a>
-            </Link>
+            <a
+              href="https://www,github.com/jkitsao"
+              className="text-red-400 active:bg-yellow-500 text-lg"
+            >
+              Github
+            </a>
           </li>
           <li className="lg:ml-32 hover:bg-yellow-700 p-2 ml-4 ">
             <Link href="/">

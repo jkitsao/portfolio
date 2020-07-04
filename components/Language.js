@@ -26,7 +26,7 @@ export default function Language() {
     },
   ]);
   return (
-    <div className="flex overflow-x-auto flex-column flex-wrap sm:flex-no-wrap lg:px-32 mt-16">
+    <div className="flex overflow-x-scroll flex-wrap sm:flex-no-wrap lg:px-32 mt-16 w-full lg:w-3/4">
       {num.map((data) => (
         <Card data={data} key={data.image} />
       ))}

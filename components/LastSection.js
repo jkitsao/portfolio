@@ -38,7 +38,7 @@ function LastSection() {
       <h2 className="text-4xl font-bold text-center text-green-800">
         Languages and frameworks i'm familiar with
       </h2>
-      <div className="" style={{ height: "28rem" }}>
+      <div className="" style={{ height: "30rem" }}>
         <Respichart data={data} />
       </div>
     </div>
